@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    --bs-navbar-toggler-focus-width: 0px;
+}
+
+.navbar-toggler{
+    padding: 0;
+    border: 0;
+}
+.secb1{
+    font-family: 'Alex Brush', cursive;
+    font-size: 60px;
+    font-weight: 900;
+    position: relative;
+    margin-right: -400px;
+    line-height: 65px;
+    padding-top: 10px;
+}
+@media (max-width: 991px){
+    .secb1{
+        margin-right: 0;
+        font-size: 50px;
+    }
+}
+@media (max-width: 786px){
+    .secb1{
+        margin-right: 0;
+        font-size: 45px;
+    }
+}
+@media (max-width: 576px){
+    .secb1{
+        margin-right: 0;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+.secd1{
+    background-image: url(./5thbg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.secd2{
+    font-family: 'Alex Brush', cursive;
+    font-size: 50px;
+    font-weight: 900;
+}
+.sece1{
+    background-color: #f9dfcf;
+    height: 50vh;
+}
+.sece3 p{
+    font-size:30px;
+    position: relative;
+    margin-top: -260px;
+    padding-left: 200px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+.sece4 img{
+    position: relative;
+    margin-top: -260px;
+    padding-left: 200px;
+}
+.sece4 {
+    padding-top: 30px;
+}
+@media (max-width: 991px){
+    .sece3 p{
+        padding-left:80px;
+        margin-top: -250px;
+    }
+    .sece4 img{
+        margin-top: -250px;
+        padding-left: 80px;
+        max-width:255px;
+    }
+    .sece4{
+        padding-top: 100px;
+        height: 112px;
+    }
+}
+@media (max-width: 576px){
+    .sece3 p{
+        font-size: 20px;
+        padding-left: 30px;
+        margin-top: -200px;
+    }
+    .sece4 img{
+        padding-left: 30px;
+        margin-top: -200px;
+        max-width: 200px;
+    }
+    .sece4{
+        padding-top: 35px;
+        height: 50px;
+    }
+}
+@media (max-width: 439px){
+    .sece3 p{
+        font-size: 18px;
+        margin-top: -230px;
+    }
+    .sece4 img{
+        margin-top:-150px;
+        max-width: 150px;
+    }
+}
+
+.secf1{
+    font-family:'Alex Brush', cursive;
+    font-weight: 900;
+    font-size:55px;
+    padding: 50px 30px 10px 30px;
+    letter-spacing: 0;
+    word-spacing: 0.2px;
+}
+.secf2{
+    padding: 5px 50px 30px 45px;
+    font-size: 18px;
+}
+@media (max-width: 400px){
+    .secf1{
+        font-size: 45px;
+        padding: 10px;
+    }
+    .secf2{
+        padding: 10px;
+    }
+}
+
+.secg1{
+    position: relative;
+    margin-top: -190px;
+}
+.secg2{
+    position: relative;
+    margin-top: -90px;
+}
+@media (max-width: 1199px){
+    .secg1{
+        position: relative;
+        margin-top: -160px;
+    }
+    .secg2{
+        position: relative;
+        margin-top: -80px;
+    }
+    .secf1{
+        font-size: 50px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .secf2{
+        padding: 5px 10px;
+    }
+}
+@media (max-width: 991px){
+    .secg1{
+        margin-top: 0;
+    }
+    .secg2{
+        margin-top: 0;
+    }
+}
